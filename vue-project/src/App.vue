@@ -1,10 +1,11 @@
 <script setup>
-import Navbar   from "@/components/Navbar.vue";
+import Navbar from "@/components/Navbar.vue";
 import HeroVue from "@/components/HeroVue.vue";
-
+import BooksListings from "@/components/BooksListings.vue";
 </script>
 
 <template>
-<Navbar></Navbar>
-<HeroVue title="hey welcome to my website"></HeroVue>
+  <Navbar />
+  <HeroVue title="Hey, welcome to my website" />
+  <BooksListings />
 </template>
